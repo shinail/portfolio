@@ -1,146 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shinail Khan | Flutter Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background-color: #f7f9f4;
-      color: #333;
-      padding: 2rem 1rem;
-    }
+<body style="font-family: 'Segoe UI', sans-serif; margin: 0; background-color: #f9f9f6; color: #333;">
 
-    header {
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-
-    header h1 {
-      font-size: 2rem;
-      font-weight: 600;
-      color: #5a5a4d;
-      margin-bottom: 0.2rem;
-    }
-
-    header p {
-      font-size: 1rem;
-      color: #888;
-      margin: 0;
-      letter-spacing: 1px;
-    }
-
-    .project-card {
-  background-color: #f8f9f4; /* Same as body bg or slightly brighter */
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04); /* soft depth */
-  border: 1px solid rgba(255, 255, 255, 0.4); /* translucent white border */
-  backdrop-filter: blur(4px); /* soft blur overlay */
-  padding: 1.5rem 1rem 2rem;
-  max-width: 800px;
-  margin: 2rem auto;
-  text-align: center;
-}
-
-
-    .project-title {
-      font-size: 1.3rem;
-      font-weight: 600;
-      color: #5a6540;
-      margin-bottom: 0.5rem;
-    }
-
-    .project-description {
-      font-size: 0.9rem;
-      color: #70795a;
-      margin-bottom: 1.2rem;
-      padding: 0 1rem;
-    }
-
-    .phone-gallery {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .iphone {
-  width: 100px;
-  height: 200px;
-  background: #111;
-  border-radius: 16px;
-  padding: 3px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.iphone img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  border-radius: 12px;
-}
-
-
-    @media (max-width: 768px) {
-      .phone-gallery {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <p>Flutter Developer</p>
+  <header style="text-align: center; padding: 2rem; background-color: #cfd8b3; color: #2d2d2d;">
     <h1>Shinail Khan</h1>
-    <p>Project Portfolio</p>
+    <p>Flutter Developer | Firebase Enthusiast | UI/UX Designer</p>
   </header>
 
-  <!-- Mawqif App -->
-  <div class="project-card">
-    <h2 class="project-title">Mawqif App</h2>
-    <p class="project-description">
-      Bilingual app for abayas and thobes with Firebase backend, brand roles, and elegant UI animations.
-    </p>
-    <div class="phone-gallery">
-      <div class="iphone"><img src="images/mawqif1.jpg" alt="Mawqif 1"></div>
-      <div class="iphone"><img src="images/mawqif2.jpg" alt="Mawqif 2"></div>
-      <div class="iphone"><img src="images/mawqif3.jpg" alt="Mawqif 3"></div>
-      <div class="iphone"><img src="images/mawqif4.jpg" alt="Mawqif 4"></div>
-    </div>
+  <div style="max-width: 1000px; margin: auto; padding: 2rem 1rem;">
+
+    <!-- About Me -->
+    <section style="text-align: center;">
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="Profile" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%; margin-bottom: 1rem;">
+      <p style="max-width: 700px; margin: 0 auto;">I'm a dedicated Flutter developer currently pursuing my Bachelor's degree in Information Technology at Punjab University Lahore. With a CGPA of 3.37, I've combined academic excellence with practical development skills to create impactful mobile applications.</p>
+      <p style="max-width: 700px; margin: 1rem auto;">My journey in mobile development began with a curiosity about creating beautiful, functional apps that users love. I specialize in Flutter and Firebase, focusing on responsive, cross-platform applications with clean architecture and engaging UX.</p>
+      <p style="max-width: 700px; margin: 1rem auto;">Beyond coding, I'm passionate about sketching, doodling, and UI experimentation. I also enjoy blogging and sharing knowledge with the tech community.</p>
+      <p>Email: <a href="mailto:shinailkhan4567@gmail.com">shinailkhan4567@gmail.com</a></p>
+      <a href="assets/shinail_CV.pdf" target="_blank" style="padding: 12px 24px; background-color: #6b7a48; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; margin-top: 1rem;">
+        View CV
+      </a>
+    </section>
+
+    <!-- Skills -->
+   <section style="margin-top: 4rem; background-color: #eaf0dc; padding: 2rem 1rem; border-radius: 12px;">
+      <h2 style="text-align: center; margin-bottom: 2rem;">Skills</h2>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;">
+        <div style="flex: 1 1 250px; max-width: 300px; background-color: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+          <h3 style="color: #5c6440;">Flutter</h3>
+          <p style="color: #777;">Cross-platform UI toolkit for native apps.</p>
+        </div>
+        <div style="flex: 1 1 250px; max-width: 300px; background-color: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+          <h3 style="color: #5c6440;">Firebase</h3>
+          <p style="color: #777;">Auth, Firestore, FCM, Storage & Hosting.</p>
+        </div>
+        <div style="flex: 1 1 250px; max-width: 300px; background-color: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+          <h3 style="color: #5c6440;">Dart</h3>
+          <p style="color: #777;">Primary language for Flutter development.</p>
+        </div>
+        <div style="flex: 1 1 250px; max-width: 300px; background-color: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+          <h3 style="color: #5c6440;">UI/UX Design</h3>
+          <p style="color: #777;">User-centric Figma to Flutter workflows.</p>
+        </div>
+        <div style="flex: 1 1 250px; max-width: 300px; background-color: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+          <h3 style="color: #5c6440;">Git & GitHub</h3>
+          <p style="color: #777;">Version control and collaboration.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Work -->
+     <section style="margin-top: 4rem; background-color: #eaf0dc; padding: 2rem 1rem; border-radius: 12px;">
+      <h2 style="text-align: center;">My Work</h2>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
+
+        <!-- Weather App -->
+        <div style="background: #f2f2ed; width: 300px; padding: 1rem; border-radius: 10px;">
+          <h3 style="margin-top: 0;">Weather App</h3>
+          <p>Real-time weather updates with OpenWeatherMap API.</p>
+          <img src="images/weather1.jpg" alt="Weather Screenshot" style="width: 100%; border-radius: 8px;">
+        </div>
+
+        <!-- Mawqif App -->
+        <div style="background: #f2f2ed; width: 300px; padding: 1rem; border-radius: 10px;">
+          <h3 style="margin-top: 0;">Mawqif App</h3>
+          <p>Bilingual shopping app for thobes and abayas.</p>
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px;">
+            <img src="images/mawqif1.jpg" style="width: 100%; border-radius: 6px;">
+            <img src="images/mawqif2.jpg" style="width: 100%; border-radius: 6px;">
+            <img src="images/mawqif3.jpg" style="width: 100%; border-radius: 6px;">
+            <img src="images/mawqif4.jpg" style="width: 100%; border-radius: 6px;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section style="margin-top: 4rem; background-color: #eaf0dc; padding: 2rem 1rem; border-radius: 12px;">
+      <h2 style="text-align: center; margin-bottom: 2rem;">Education</h2>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;">
+        <div style="flex: 1 1 300px; max-width: 350px; background-color: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+          <h3 style="color: #5c6440;">BS Information Technology</h3>
+          <p>Punjab University</p>
+          <p style="color: #777;">CGPA: 3.37</p>
+          <p style="color: #777;">2021 - 2025</p>
+        </div>
+        <div style="flex: 1 1 300px; max-width: 350px; background-color: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+          <h3 style="color: #5c6440;">Intermediate in Computer Science</h3>
+          <p>Kips College</p>
+          <p style="color: #777;">Marks: 1077</p>
+          <p style="color: #777;">2019 - 2021</p>
+        </div>
+        <div style="flex: 1 1 300px; max-width: 350px; background-color: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+          <h3 style="color: #5c6440;">Matriculation</h3>
+          <p>Workers Welfare School</p>
+          <p style="color: #777;">Marks: 1077</p>
+          <p style="color: #777;">2007 - 2019</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+  <section style="margin-top: 4rem; background-color: #eaf0dc; padding: 2rem 1rem; border-radius: 12px;">
+      <h2 style="text-align: center; margin-bottom: 2rem;">Certificates</h2>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;">
+        <div style="flex: 1 1 300px; max-width: 350px; background-color: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+          <h3 style="color: #5c6440;">Flutter & Firebase Development</h3>
+          <p>Self-Learning</p>
+          <p style="color: #777;">2023 – Present</p>
+        </div>
+        <div style="flex: 1 1 300px; max-width: 350px; background-color: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+          <h3 style="color: #5c6440;">Basic Python Programming</h3>
+          <p>Online Platform</p>
+          <p style="color: #777;">Loops, Functions, File I/O</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+     <section style="text-align: center; margin-bottom: 2rem;">
+      <h2 >Contact</h2>
+      <p>
+        Email: <a href="mailto:shinailkhan4567@gmail.com">shinailkhan4567@gmail.com</a><br>
+        GitHub: <a href="https://github.com/shinail" target="_blank">github.com/shinail</a>
+      </p>
+    </section>
+
   </div>
 
-  <!-- Pet Shop App -->
-  <div class="project-card">
-    <h2 class="project-title">Pet Shop App</h2>
-    <p class="project-description">
-      Firebase-powered app for pet product browsing, login, and real-time cart management.
-    </p>
-    <div class="phone-gallery">
-      <div class="iphone"><img src="images/pet1.jpg" alt="Pet 1"></div>
-      <div class="iphone"><img src="images/pet2.jpg" alt="Pet 2"></div>
-      <div class="iphone"><img src="images/pet3.jpg" alt="Pet 3"></div>
-    </div>
-  </div>
-
-  <!-- Weather App -->
-  <div class="project-card">
-    <h2 class="project-title">Weather App</h2>
-    <p class="project-description">
-      A clean and responsive Flutter app showing real-time weather using OpenWeatherMap API.
-    </p>
-    <div class="phone-gallery">
-      <div class="iphone"><img src="images/weather1.jpg" alt="Weather App"></div>
-    </div>
-  </div>
-
+  <footer style="text-align: center; padding: 1rem; background: #cfd8b3;">
+    &copy; 2025 Shinail Khan — All rights reserved
+  </footer>
 </body>
-</html>
