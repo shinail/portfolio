@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shinail Khan | Flutter Developer</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      color: #2d2d2d;
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: #4a5d23;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin: 3rem auto;
+      max-width: 1000px;
+      padding: 0 1rem;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(135deg, #cfd8b3, #b6c197);
+      color: #2d2d2d;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.3rem;
+    }
+
+    /* About */
+    .about img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid #6b7a48;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 12px 24px;
+      background: #6b7a48;
+      color: #fff;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #556536;
+    }
+
+    /* Skills */
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .skill-card {
+      flex: 1 1 220px;
+      max-width: 250px;
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .skill-card h3 {
+      color: #5c6440;
+    }
+
+    /* Work */
+    .work-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .work-card {
+      background: #fff;
+      width: 300px;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .work-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .work-card .grid-imgs {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+    .work-card h3 {
+      margin-top: 0;
+      color: #4a5d23;
+    }
+
+    /* Education + Certificates */
+    .info-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .info-card {
+      flex: 1 1 280px;
+      max-width: 320px;
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .info-card h3 {
+      color: #5c6440;
+    }
+
+    /* Contact */
+    .contact {
+      text-align: center;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #cfd8b3;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Shinail Khan</h1>
+    <p>Flutter Developer | Firebase Enthusiast | UI/UX Designer</p>
+  </header>
+
+  <main>
+    <!-- About -->
+    <section class="about" style="text-align: center;">
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="Profile">
+      <p>I'm a dedicated Flutter developer currently pursuing my Bachelor's degree in Information Technology at Punjab University Lahore. With a CGPA of 3.37, I've combined academic excellence with practical development skills to create impactful mobile applications.</p>
+      <p>My journey in mobile development began with a curiosity about creating beautiful, functional apps that users love. I specialize in Flutter and Firebase, focusing on responsive, cross-platform applications with clean architecture and engaging UX.</p>
+      <p>Beyond coding, I'm passionate about sketching, doodling, and UI experimentation. I also enjoy blogging and sharing knowledge with the tech community.</p>
+      <p>Email: <a href="mailto:shinailkhan4567@gmail.com">shinailkhan4567@gmail.com</a></p>
+      <a href="assets/Shinail_resume.pdf" target="_blank" class="btn">View CV</a>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2 style="text-align:center;">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><h3>Flutter</h3><p>Cross-platform UI toolkit for native apps.</p></div>
+        <div class="skill-card"><h3>Firebase</h3><p>Auth, Firestore, FCM, Storage & Hosting.</p></div>
+        <div class="skill-card"><h3>Dart</h3><p>Primary language for Flutter development.</p></div>
+        <div class="skill-card"><h3>UI/UX Design</h3><p>User-centric Figma to Flutter workflows.</p></div>
+        <div class="skill-card"><h3>Git & GitHub</h3><p>Version control and collaboration.</p></div>
+      </div>
+    </section>
+
+    <!-- My Work -->
+    <section>
+      <h2 style="text-align:center;">My Work</h2>
+      <div class="work-grid">
+        <div class="work-card">
+          <h3>Weather App</h3>
+          <p>Real-time weather updates with OpenWeatherMap API.</p>
+          <img src="images/weather1.jpg" alt="Weather Screenshot">
+        </div>
+        <div class="work-card">
+          <h3>Mawqif App</h3>
+          <p>Bilingual shopping app for thobes and abayas.</p>
+          <div class="grid-imgs">
+            <img src="images/mawqif1.jpg">
+            <img src="images/mawqif2.jpg">
+            <img src="images/mawqif3.jpg">
+            <img src="images/mawqif4.jpg">
+          </div>
+        </div>
+        <div class="work-card">
+          <h3>Task Management App</h3>
+          <p>Organize tasks with priority, deadlines, and progress tracking.</p>
+          <div class="grid-imgs">
+            <img src="images/t1.jpg">
+            <img src="images/t2.jpg">
+            <img src="images/t3.jpg">
+            <img src="images/t4.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2 style="text-align:center;">Education</h2>
+      <div class="info-grid">
+        <div class="info-card"><h3>BS Information Technology</h3><p>Punjab University</p><p>CGPA: 3.37</p><p>2021 - 2025</p></div>
+        <div class="info-card"><h3>Intermediate in Computer Science</h3><p>Kips College</p><p>Marks: 1077</p><p>2019 - 2021</p></div>
+        <div class="info-card"><h3>Matriculation</h3><p>Workers Welfare School</p><p>Marks: 1077</p><p>2007 - 2019</p></div>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section>
+      <h2 style="text-align:center;">Certificates</h2>
+      <div class="info-grid">
+        <div class="info-card"><h3>Flutter & Firebase Development</h3><p>Self-Learning</p><p>2023 – Present</p></div>
+        <div class="info-card"><h3>Basic Python Programming</h3><p>Online Platform</p><p>Loops, Functions, File I/O</p></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:shinailkhan4567@gmail.com">shinailkhan4567@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/shinail" target="_blank">github.com/shinail</a></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Shinail Khan — All rights reserved
+  </footer>
+</body>
+</html>
